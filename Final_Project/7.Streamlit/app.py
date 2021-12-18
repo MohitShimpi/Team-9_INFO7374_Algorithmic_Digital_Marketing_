@@ -69,7 +69,7 @@ elif add_selectbox == 'RFM- Customer Segmentation':
     new_title = '**<p style="font-family:Georgia; color:Brown; text-align: center;font-size: 33px;">Customer Segmentation using RFM</p>**'
     st.markdown(new_title, unsafe_allow_html=True)
     def get_rfm():
-        return pd.read_csv('https://raw.githubusercontent.com/MohitShimpi/Algorithmic-Digital-Marketing/main/Final_Project/7.Streamlit/rfm_level_ag.csv')
+        return pd.read_csv('https://raw.githubusercontent.com/MohitShimpi/Team-9_INFO7374_Algorithmic_Digital_Marketing_/main/Final_Project/7.Streamlit/rfm_level_ag.csv')
 
     rfm = get_rfm()
    
@@ -101,10 +101,10 @@ elif add_selectbox == 'Churn Rate Analysis':
     st.write('_______________________________________________________________________________________')
 
     def get_sales():
-        return pd.read_csv('https://raw.githubusercontent.com/MohitShimpi/Algorithmic-Digital-Marketing/main/Final_Project/7.Streamlit/sale.csv')
+        return pd.read_csv('https://raw.githubusercontent.com/MohitShimpi/Team-9_INFO7374_Algorithmic_Digital_Marketing_/main/Final_Project/7.Streamlit/sale.csv')
 
     def get_rfm_segment():
-        return pd.read_csv('https://raw.githubusercontent.com/MohitShimpi/Algorithmic-Digital-Marketing/main/Final_Project/7.Streamlit/rfm_lsegment.csv')
+        return pd.read_csv('https://raw.githubusercontent.com/MohitShimpi/Team-9_INFO7374_Algorithmic_Digital_Marketing_/main/Final_Project/7.Streamlit/rfm_lsegment.csv')
 
     sales = get_sales()
     rfm2 = get_rfm_segment()
@@ -129,14 +129,14 @@ elif add_selectbox == 'Churn Rate Analysis':
 elif add_selectbox == 'Recommendation System':     
 	
 	def get_sales():
-		return pd.read_csv('https://raw.githubusercontent.com/MohitShimpi/Algorithmic-Digital-Marketing/main/Final_Project/7.Streamlit/sale.csv')
+		return pd.read_csv('https://raw.githubusercontent.com/MohitShimpi/Team-9_INFO7374_Algorithmic_Digital_Marketing_/main/Final_Project/7.Streamlit/sale.csv')
 	def get_movies():
-		return pd.read_csv('https://raw.githubusercontent.com/MohitShimpi/Algorithmic-Digital-Marketing/main/Final_Project/7.Streamlit/movies.csv')
+		return pd.read_csv('https://raw.githubusercontent.com/MohitShimpi/Team-9_INFO7374_Algorithmic_Digital_Marketing_/main/Final_Project/7.Streamlit/movies.csv')
 	# Reading ratings file
-	ratings = pd.read_csv('https://raw.githubusercontent.com/MohitShimpi/Algorithmic-Digital-Marketing/main/Final_Project/7.Streamlit/ratings.csv', sep=',', encoding='latin-1', usecols=['userId','movieId','rating','timestamp'])
+	ratings = pd.read_csv('https://raw.githubusercontent.com/MohitShimpi/Team-9_INFO7374_Algorithmic_Digital_Marketing_/main/Final_Project/7.Streamlit/ratings.csv', sep=',', encoding='latin-1', usecols=['userId','movieId','rating','timestamp'])
 
 	# Reading movies file
-	movies = pd.read_csv('https://raw.githubusercontent.com/MohitShimpi/Algorithmic-Digital-Marketing/main/Final_Project/7.Streamlit/movies.csv', sep=',', 
+	movies = pd.read_csv('https://raw.githubusercontent.com/MohitShimpi/Team-9_INFO7374_Algorithmic_Digital_Marketing_/main/Final_Project/7.Streamlit/movies.csv', sep=',', 
 	encoding='latin-1',usecols=['movieId','title','genres'])
 
 	df_movies = movies 
