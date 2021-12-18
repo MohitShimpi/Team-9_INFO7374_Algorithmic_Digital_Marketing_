@@ -1,0 +1,8 @@
+,Customer Segment,Recency,Frequency,MonetaryValue,MonetaryValue
+,,mean,mean,mean,count
+0,Almost Lost Customers,16.0,33.0,7990.0,5
+1,Attention Needed Customers,15.75,44.68,10749.2,75
+2,Lost Customers,20.4,24.69,5959.59,171
+3,Loyal Customers,4.03,59.92,14327.16,197
+4,Most Loyal Customer,1.6,189.24,45398.77,406
+5,Potential Loyalists Customers,4.8,40.74,9758.88,89
